@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="../normalize.css">
+		<link href="shopping-list.css" rel="stylesheet">
+		<script src="shopping-list.js"></script>
+		<title>Shopping List</title>
+	</head>
+	<body>
+		<header>
+			<h1>Shopping List App</h1>
+		</header>
+		<main>
+			<div id="new-item-form" >
+				<label for="new-item">New Item:</label>
+				<input id="new-item">
+				<button id="add-new-item">+</button>
+			</div>
+			<hr>
+			<div id='body-flex-container' style="display:flex; flex-direction:row; ">
+				<section id="active-items">
+					<h2>Active List</h2>
+					<ul id="active-items-list" class="shopping"></ul>
+				</section>
+				<section id="common-items">
+					<h2>Common Items</h2>
+					<ul id="common-items-list" class="shopping">
+						<li>Milk <button class="btn-add" name="Milk">+</button></li>
+						<li>Eggs <button class="btn-add" name="Eggs">+</button></li>
+						<li>Bread <button class="btn-add" name="Bread">+</button></li>
+						<li>Chicken <button class="btn-add" name="Chicken">+</button></li>
+						<li>Tomatoes <button class="btn-add" name="Tomatoes">+</button></li>
+					</ul>
+				</section>
+				<section id="log">
+					<h2>Log</h2>
+					<ol id="logging-list-main" style="list-style:none; display:inline; "></ol>
+				</section>
+			</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,72 @@
+#new-item-form {
+  width:350px;
+}
+
+main {
+  margin: 0 20px;
+}
+
+section {
+  padding:0px 10px;
+  float:left;
+}
+
+section#common-items {
+  width:200px;
+}
+
+section#active-items {
+  width:300px;
+}
+
+ul.shopping {
+  margin:0 10px 0 0;
+  padding:0;
+}
+
+ul.shopping>li {
+  display:block;
+  margin:1px 0;
+  padding:5px 5px 7px 5px;
+  width:100%;
+  border:1px solid #006;
+  font-size:large;
+}
+
+li:hover {
+  background-color:rgba(255,255,0,.25);
+  border-width: 1px 2px 2px 1px;
+}
+
+button {
+  background-color:#fff;
+  height:25px;
+  cursor:pointer;
+}
+
+section button {
+  display:block;
+  float:right;
+}
+
+button:disabled {
+  background-color:#ccc;
+  color:red;
+  cursor:none;
+}
+
+label {
+  font-weight: bold;
+  font-size:large;
+}
+
+input {
+  margin-right:5px;
+  font-size:large;
+}
+
+section#log {
+  float:left;
+  margin-left:20px;
+  background-color:rgba(0,255,0,.1);
+}
